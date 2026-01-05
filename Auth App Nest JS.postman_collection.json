@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "b2d6c72e-f918-4c0d-a3b5-ace798f9a37f",
+		"name": "Auth App Nest JS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "18983769",
+		"_collection_link": "https://winter-star-78165.postman.co/workspace/Office~6f1c50ee-dd34-4c58-b751-6ded20e74425/collection/18983769-b2d6c72e-f918-4c0d-a3b5-ace798f9a37f?action=share&source=collection_link&creator=18983769"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "faizan",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:3000/login"
+			},
+			"response": []
+		},
+		{
+			"name": "protected",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/protected"
+			},
+			"response": []
+		}
+	]
+}
